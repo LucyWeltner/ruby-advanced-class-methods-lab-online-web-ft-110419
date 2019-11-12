@@ -52,5 +52,7 @@ end
 Song.create_by_name("Pennyroyal Tea")
 Song.create_by_name("Best Life")
 Song.create_by_name("The Jitters")
-Song.create_by_name()
+Song.create_by_name("Money Machine")
+
+p Song.alphabetical
 
