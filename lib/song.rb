@@ -49,3 +49,6 @@ class Song
   end
 end
 
+Song.create_by_name("Pennyroyal Tea")
+Song.create_by_name("Good ")
+
