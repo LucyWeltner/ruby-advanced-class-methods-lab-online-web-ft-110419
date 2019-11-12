@@ -61,6 +61,9 @@ class Song
   def self.create_from_filename(mp3)
     self.all << self.new_from_filename(mp3)
   end
+  def destroy_all
+    self.all = []
+  end
 end
 
 Song.create_by_name("Pennyroyal Tea")
