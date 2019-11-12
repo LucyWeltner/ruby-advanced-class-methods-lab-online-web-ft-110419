@@ -62,7 +62,7 @@ class Song
     self.all << self.new_from_filename(mp3)
   end
   def self.destroy_all
-    self.all = []
+    self.all.clear
     all
   end
 end
