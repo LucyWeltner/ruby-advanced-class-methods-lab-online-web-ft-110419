@@ -63,6 +63,7 @@ class Song
   end
   def destroy_all
     self.all = []
+    all
   end
 end
 
