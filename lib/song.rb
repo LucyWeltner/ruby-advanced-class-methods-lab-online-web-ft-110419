@@ -50,7 +50,9 @@ class Song
   
   def self.new_from_filename(mp3)
     artist_title = mp3.chomp(".mp3")
+    p artist_title
     artist_title_array = artist_title.split(" - ")
+    p artist_title_array
     new_song = Song.new
     new_song.artist = artist_title_array[0]
     new_song.name = artist_title_array[1]
@@ -62,7 +64,7 @@ Song.create_by_name("Pennyroyal Tea")
 Song.create_by_name("Best Life")
 Song.create_by_name("The Jitters")
 Song.create_by_name("745 Sticky")
-Song.new_from_filename("Counting Crows - ")
+p Song.new_from_filename("Counting Crows - Recovering The Satellites.mp3")
 
 p Song.alphabetical
 
