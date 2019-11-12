@@ -43,7 +43,7 @@ class Song
   
   def self.alphabetical
     sorted_array = self.all.sort_by do |song|
-      song[0]
+      song.name[0]
     end
     sorted_array
   end
