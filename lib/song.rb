@@ -50,5 +50,7 @@ class Song
 end
 
 Song.create_by_name("Pennyroyal Tea")
-Song.create_by_name("Good ")
+Song.create_by_name("Best Life")
+Song.create_by_name("The Jitters")
+Song.create_by_name()
 
