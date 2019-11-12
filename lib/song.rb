@@ -62,7 +62,7 @@ Song.create_by_name("Pennyroyal Tea")
 Song.create_by_name("Best Life")
 Song.create_by_name("The Jitters")
 Song.create_by_name("745 Sticky")
-Song.new_from_filename()
+Song.new_from_filename("Counting Crows - ")
 
 p Song.alphabetical
 
