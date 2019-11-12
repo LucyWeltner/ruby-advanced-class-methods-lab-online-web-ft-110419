@@ -58,6 +58,9 @@ class Song
     new_song.name = artist_title_array[1]
     new_song
   end
+  def self.create_from_filename(mp3)
+    self.all << self.new_from_filename
+  end
 end
 
 Song.create_by_name("Pennyroyal Tea")
